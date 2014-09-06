@@ -1,6 +1,8 @@
 node-betaseries
 ===============
 
+[![Build Status](https://travis-ci.org/mebibou/node-betaseries.png)](https://travis-ci.org/mebibou/node-betaseries)
+
 Node.js module for Betaseries API
 
 ## Contribute
