@@ -1,0 +1,27 @@
+{
+  "name": "node-betaseries",
+  "version": "0.0.1",
+  "description": "Node.js module for Betaseries API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mebibou/node-betaseries.git"
+  },
+  "keywords": [
+    "betaseries",
+    "api"
+  ],
+  "author": "Guillaume Royer <guillaumeroyer.mail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mebibou/node-betaseries/issues"
+  },
+  "homepage": "https://github.com/mebibou/node-betaseries",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
