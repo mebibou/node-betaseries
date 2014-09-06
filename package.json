@@ -20,6 +20,9 @@
     "url": "https://github.com/mebibou/node-betaseries/issues"
   },
   "homepage": "https://github.com/mebibou/node-betaseries",
+  "dependencies": {
+    "request": "*"
+  },
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.21.4"
