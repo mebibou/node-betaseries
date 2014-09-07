@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/mebibou/node-betaseries",
   "dependencies": {
-    "request": "*"
+    "request": "*",
+    "dotenv": "0.4.x"
   },
   "devDependencies": {
     "chai": "^1.9.1",

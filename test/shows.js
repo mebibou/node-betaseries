@@ -2,7 +2,7 @@ var assert = require('chai').assert,
     BetaSeries = require('../index');
 
 describe('#valid', function() {
-  var betaSeries = new BetaSeries('e426aad8d05f');
+  var betaSeries = new BetaSeries(process.env.BETASERIES_API_KEY);
   var shows = betaSeries.Shows;
 
   it('get info about a show', function(done) {
