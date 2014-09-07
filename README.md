@@ -14,7 +14,7 @@ Node.js module for Betaseries API
   ...
   "dependencies": {
     ...
-    "node-betaseries": "0.0.1"
+    "betaseries": "0.0.1"
   }
 }
 ```
