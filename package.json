@@ -1,7 +1,8 @@
 {
   "name": "betaseries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js module for Betaseries API",
+  "author": "Guillaume Royer <guillaumeroyer.mail@gmail.com>",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000"
