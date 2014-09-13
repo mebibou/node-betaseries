@@ -28,6 +28,8 @@ BETASERIES_API_KEY=YOUR_BETASERIES_API_KEY_HERE
 
 Check out the [tests](https://github.com/mebibou/node-betaseries/tree/master/test) to see how to use it.
 
+You can also have the complete API documentation here : http://www.betaseries.com/api/docs
+
 ## Contribute
 
 To contribute to the project, read the [Contribution guidelines](https://github.com/mebibou/node-betaseries/blob/master/CONTRIBUTING.md).
