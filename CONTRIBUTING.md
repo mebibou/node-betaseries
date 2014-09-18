@@ -158,12 +158,9 @@ to read on github as well as in various git tools.
 ### Type
 Must be one of the following:
 
-* **mo**: Modifications on Node-BetaSeries project details (wiki)
+* **chore**: Modifications on Node-BetaSeries project
 * **feat**: A new feature
 * **fix**: A bug fix
-* **card**: Card modification or added
-* **rules**: Modifications on rules
-* **tpl**: Modifications on templates
 * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing
   semi-colons, etc)
 * **refactor**: A code change that neither fixes a bug or adds a feature
