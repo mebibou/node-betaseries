@@ -1,5 +1,5 @@
 var assert = require('chai').assert,
-	crypto = require('crypto'),
+    crypto = require('crypto'),
     BetaSeries = require('../index');
 
 describe('#valid', function() {
