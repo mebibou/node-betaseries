@@ -7,19 +7,12 @@ Node.js module for Betaseries API
 
 ## Installation
 
-1. Add it to your package.json file:
+1. Install as a npm dependency:
 
-```javascript
-{
-  ...
-  "dependencies": {
-    ...
-    "betaseries": "0.0.1"
-  }
-}
+```shel
+npm install betaseries
 ```
-2. Run ```npm install```
-3. Create a `.env` file with the following content:
+2. Create a `.env` file with the following content:
 ```
 BETASERIES_API_KEY=YOUR_BETASERIES_API_KEY_HERE
 ```
