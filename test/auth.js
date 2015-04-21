@@ -1,5 +1,5 @@
 var assert = require('chai').assert,
-    crypto = require('crypto'),
+    user = require('./credentials'),
     BetaSeries = require('../index');
 
 describe('#valid', function() {
@@ -7,14 +7,8 @@ describe('#valid', function() {
   var auth = betaSeries.Auth;
 
   it('login as user', function(done) {
-    var user = {
-      login: 'Dev080',
-      password: crypto.createHash("md5").update('developer').digest("hex"),
-      id: 27018	
-    };
-
-    auth.login(user.login, user.password, function(response) {
-      assert(response.user.id == user.id, 'user connected');
+    auth.login(user.getUsername(), user.getPassword(), function(response) {
+      assert(response.token == user.getToken(), 'user connected');
       done();
     });
   });
