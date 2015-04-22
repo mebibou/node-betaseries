@@ -8,7 +8,7 @@ describe('#valid', function() {
 
   it('login as user', function(done) {
     auth.login(user.getUsername(), user.getPassword(), function(response) {
-      assert(response.token == user.getToken(), 'user connected');
+      assert(response.user.id == user.getId(), 'user connected');
       done();
     });
   });
