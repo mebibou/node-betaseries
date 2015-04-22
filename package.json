@@ -1,6 +1,6 @@
 {
   "name": "betaseries",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node.js module for Betaseries API",
   "author": "Guillaume Royer <guillaumeroyer.mail@gmail.com>",
   "main": "index.js",
