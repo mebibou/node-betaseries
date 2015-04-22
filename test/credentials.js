@@ -6,7 +6,7 @@
   User = function() {
     var username = "dev080",
         password = "developer",
-        token = "a93a4d8dd153";
+        id = 27018;
 
     this.getUsername = function() {
       return username;
@@ -16,8 +16,8 @@
       return crypto.createHash("md5").update(password).digest("hex");
     };
 
-    this.getToken = function() {
-      return token;
+    this.getId = function() {
+      return id;
     }
 
   };
